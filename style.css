@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.logo img{
+    width: 210px;
+    height: 36px;
+    margin-left: 10px;
+}
+ul{
+    display: flex;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+li{
+    margin-left: 30px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    width: 82px;
+    height: 28px;
+    font-weight: 400;
+}
+.btn1{
+    margin-left: 170px;
+    padding: 15px 35px;
+    background-color: transparent;
+    border-radius: 14px;
+    border: 1px black solid;
+}
+header{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 180px;
+}
+.navigating{
+    width: 230px;
+    height: 231px;
+    size: 60px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.content{
+    width: 531px;
+    height: 481px;
+    margin-right: 0px;
+}
+.agency{
+    width: 310px;
+    height: 100px;
+    size: 20px;
+    position: absolute;
+    top: 260px;
+}
+.illustration img{
+    width: 350px;
+    height: 315px;
+}
+.btn2{
+    padding: 15px 35px;
+    background-color: black;
+    border-radius: 14px;
+    color: white;
+    border: 1px black solid;
+}
+.logotype{
+    position: absolute;
+    top: 470px;
+    margin-left: 90px;
+}
+.logotype img{
+    margin-left: 75px;
+    filter: grayscale(100%);
+    size: 10px;
+    width: 90px;
+}
+.two{
+    display: flex;
+}
+.two p{
+    margin-left: 50px;
+    size: 20px;
+    width: 450px;
+}
+.two h1{
+    background: #B9FF66;
+    margin-left: 160px;
+    size: 80px;
+    padding: 2px;
+    width: 100px;
+    height: 31px;
+    gap: 0px;
+    opacity: 0px;
+    font-weight: 500;
+}
+.card{
+    border: 1px solid black;
+    width: 400px;
+    margin-left: 20px;
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+}
+.card2{
+    border: 1px solid black;
+    width: 400px;
+    border-radius: 30px;
+    background: #B9FF66;
+    margin-left: 30px;
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.image{
+    margin-left: 180px;
+}
+.content1 h1{
+    background: #B9FF66;
+    width: 200px;
+}
+.cord{
+    margin-top: 50px;
+    margin-left: 120px;
+    display: flex;
+}
