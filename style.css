@@ -125,12 +125,167 @@ header{
 .image{
     margin-left: 180px;
 }
-.content1 h1{
-    background: #B9FF66;
-    width: 200px;
-}
 .cord{
     margin-top: 50px;
     margin-left: 120px;
     display: flex;
+}
+.working{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.working p{
+    margin-left: 50px;
+    size: 20px;
+    width: 230px;
+}
+.working h1{
+    background: #B9FF66;
+    margin-left: 160px;
+    size: 80px;
+    padding: 2px;
+    width: 210px;
+    height: 31px;
+    gap: 0px;
+    opacity: 0px;
+    font-weight: 500;
+}
+.content2 h1{
+    background-color: #fff;
+    width: 150px;
+}
+.content2 .h{
+    background-color: #fff;
+    width: 120px;
+}
+.content1 h1{
+    background-color: #B9FF66;
+    width: 150px;
+}
+.content1 .h{
+    background-color: #B9FF66;
+    width: 120px;
+}
+
+
+.accordion-button {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 0;
+    color: #000;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-button:not(.collapsed) {
+    background: #B9FF66;
+
+    color: #000;
+}
+
+.accordion-button:hover {
+    background-color: #f0f0f0;
+}
+
+.accordion-body {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+}
+
+.accordion-header {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.accordion-item {
+    border: none;
+    margin-bottom: 5px;
+}
+
+.step-number {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #000;
+}
+
+.custom-active {
+    background-color: #b3e15d !important;
+}
+
+.accordion-button.collapsed {
+    color: #000;
+    background-color: #f5f5f5;
+}
+
+.footer-section {
+    background-color: #141519;
+    padding: 40px 0;
+}
+
+.footer-logo {
+    width: 200px;
+    height: 60px;
+}
+
+.contact-title {
+    font-size: 1.2rem;
+    color: #b3e15d;
+    margin-bottom: 10px;
+}
+
+.footer-nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.footer-nav li a:hover {
+    text-decoration: underline;
+}
+
+.footer-subscribe p {
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+.footer-subscribe{
+    margin-top: 80px;
+}
+.subscribe-form input {
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.subscribe-form .btn {
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: #b3e15d;
+    color: #000;
+}
+
+.social-icons a {
+    display: inline-block;
+}
+
+.social-icon {
+    width: 30px;
+}
+
+.footer-link {
+    color: #b3e15d;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
 }
